@@ -5,5 +5,7 @@ program: Figure 8
 async function startProgram() {
 	setSpeed(75)
 	await spin(360, 8)
-
+	await spin(-360, 8)
+	stopRoll()
 }
+
